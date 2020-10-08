@@ -16,6 +16,7 @@ After the above comment executes, go **http://localhost:6006**
 
 ## Training with example dataset
 
+```
 python main.py --mode train \
                      --scope ResUnetA \
                      --name_data poc \
@@ -34,7 +35,7 @@ python main.py --mode train \
                      --nx_out 224 \
                      --nx_load 224 \
                      --ny_load 224          
-
+```
 
 ## Directories structure
     +---[dir_checkpoint]
